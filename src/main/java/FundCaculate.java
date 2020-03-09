@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 public class FundCaculate {
     public static void main(String[] args) {
         //初始资金
-        BigDecimal initialFunding = new BigDecimal(1500);
+        BigDecimal initialFunding = new BigDecimal(500000);
         //目标金额
         BigDecimal targetFunding = new BigDecimal(100 * 10000);
         //年化利息
@@ -35,6 +35,6 @@ public class FundCaculate {
         System.out.println("年化利息" + interest.doubleValue());
         System.out.println("-------------------------------");
         System.out.println("最终结果：" + nowFunds.doubleValue());
-        System.out.println("需要月数：" + i);
+        System.out.println("需要年数：" + i);
     }
 }
